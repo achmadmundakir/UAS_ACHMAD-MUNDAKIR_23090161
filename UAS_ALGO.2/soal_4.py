@@ -29,17 +29,13 @@ class Mangga(Buah):
         return f"Nama: {self.nama}, Warna: {self.warna}, Rasa: {self.rasa}, Vitamin: {self.vitamin}"
 
 
-# Membuat instance objek dari kelas child
 mangga = Mangga("Mangga Harum Manis", "Hijau", "Manis", "Vitamin C")
 
-# Memanggil atribut dan metode dari objek
 print(mangga.information())
 
-# Mengubah nilai atribut menggunakan setter method
 mangga.setNama("Mangga Manalagi")
 mangga.setWarna("Kuning")
 mangga.setRasa("Manis-Asam")
 mangga.setVitamin("Vitamin A dan C")
 
-# Menampilkan informasi setelah perubahan
 print(mangga.information())
